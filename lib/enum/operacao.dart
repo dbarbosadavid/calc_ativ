@@ -1,4 +1,4 @@
-enum Operacao{
+enum Operacao {
   add('Somar', '+'),
   sub('Subtrair', '-'),
   div('Dividir', '÷'),
@@ -9,7 +9,6 @@ enum Operacao{
   igual('Resultado', '='),
   virgula('Virgula', '.'),
   maismenos('Negativo/Positivo', '+/-');
-
 
   final String nome;
   final String op;

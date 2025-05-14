@@ -39,6 +39,9 @@ class _MyHomePageState extends State<MyHomePage> {
   // ignore: avoid_types_as_parameter_names
   void _digitar(var num) {
     setState(() {
+      if (valor == 'Infinity') {
+        valor = '';
+      }
       if (num.runtimeType == String) {
         switch (num) {
           case ".":
